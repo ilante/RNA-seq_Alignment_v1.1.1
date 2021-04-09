@@ -1,0 +1,374 @@
+Native App Launcher assembly version information:
+NativeApp: 1.0.0.0
+NativeApp.Core: 1.0.0.0
+
+Plugin assembly version information:
+Common.Logging: 2.1.2.0
+Illumina.BaseSpace.SDK: 1.0.0.9
+Illumina.TerminalVelocity: 1.0.0.0
+NativeApp.Core: 1.0.0.0
+NativeApp.Standard.Isis: 1.0.0.0
+NativeApp.Standard: 1.1.0.0
+Newtonsoft.Json: 4.5.0.0
+ServiceStack.Common: 3.9.54.0
+ServiceStack.Interfaces: 3.9.54.0
+ServiceStack.Text: 3.9.54.0
+TopHatV2: 1.0.0.0
+bash -c "ln -s /data/input/samples/15098213/CTR_S1_L001_R1_001.fastq.gz /data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L001_R1_001.fastq.gz"
+bash -c "ln -s /data/input/samples/15098213/CTR_S1_L001_R2_001.fastq.gz /data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L001_R2_001.fastq.gz"
+bash -c "ln -s /data/input/samples/15098213/CTR_S1_L002_R1_001.fastq.gz /data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L002_R1_002.fastq.gz"
+bash -c "ln -s /data/input/samples/15098213/CTR_S1_L002_R2_001.fastq.gz /data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L002_R2_002.fastq.gz"
+bash -c "ln -s /data/input/samples/15098213/CTR_S1_L003_R1_001.fastq.gz /data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L003_R1_003.fastq.gz"
+bash -c "ln -s /data/input/samples/15098213/CTR_S1_L003_R2_001.fastq.gz /data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L003_R2_003.fastq.gz"
+bash -c "ln -s /data/input/samples/15098213/CTR_S1_L004_R1_001.fastq.gz /data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L004_R1_004.fastq.gz"
+bash -c "ln -s /data/input/samples/15098213/CTR_S1_L004_R2_001.fastq.gz /data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L004_R2_004.fastq.gz"
+[LOG][2021-03-12 19:05:03.930]Launching Isis (attempt 1 out of 3 max attempts)
+[LOG][2021-03-12 19:05:03.933]Running command: "/opt/illumina/Isis/latest/Isis" -r "/data/scratch/workspace/RunFolder" -a "/data/scratch/workspace/RunFolder/Analysis" -c 1
+[LOG][2021-03-12 19:05:04.414]Using mono:
+[LOG][2021-03-12 19:05:04.415]Mono JIT compiler version 3.10.0 (tarball Wed Jun 22 01:46:48 EDT 2016)
+[LOG][2021-03-12 19:05:04.415]Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. www.mono-project.com
+[LOG][2021-03-12 19:05:04.415]	TLS:           __thread
+[LOG][2021-03-12 19:05:04.415]	SIGSEGV:       altstack
+[LOG][2021-03-12 19:05:04.415]	Notifications: epoll
+[LOG][2021-03-12 19:05:04.415]	Architecture:  amd64
+[LOG][2021-03-12 19:05:04.415]	Disabled:      none
+[LOG][2021-03-12 19:05:04.415]	Misc:          softdebug 
+[LOG][2021-03-12 19:05:04.415]	LLVM:          supported, not enabled.
+[LOG][2021-03-12 19:05:04.415]	GC:            sgen
+[LOG][2021-03-12 19:05:04.428]Isis 2.6.25.18.  Arguments:
+[LOG][2021-03-12 19:05:04.428]  -r
+[LOG][2021-03-12 19:05:04.428]  /data/scratch/workspace/RunFolder
+[LOG][2021-03-12 19:05:04.428]  -a
+[LOG][2021-03-12 19:05:04.428]  /data/scratch/workspace/RunFolder/Analysis
+[LOG][2021-03-12 19:05:04.428]  -c
+[LOG][2021-03-12 19:05:04.428]  1
+[LOG][2021-03-12 19:05:04.865]Starting Execution for /data/scratch/workspace/RunFolder
+[LOG][2021-03-12 19:05:04.866]03/12/2021,19:05:04.853,SecondaryAnalysis 2.6.25.18: Starting Logging for Analysis
+[LOG][2021-03-12 19:05:04.867]03/12/2021,19:05:04.856,Run by user: root
+03/12/2021,19:05:04.856,SecondaryAnalysis 2.6.25.18: Starting Error Logging for Analysis
+03/12/2021,19:05:04.856,Run by user: root
+[LOG][2021-03-12 19:05:05.368]03/12/2021,19:05:04.929,Novel transcript detection enabled
+[LOG][2021-03-12 19:05:05.368]03/12/2021,19:05:04.929,Variant calling enabled
+[LOG][2021-03-12 19:05:05.368]03/12/2021,19:05:04.929,Using STAR for alignment
+[LOG][2021-03-12 19:05:05.368]03/12/2021,19:05:04.929,Fusion calling enabled
+[LOG][2021-03-12 19:05:05.368]03/12/2021,19:05:04.933,Running in single-node mode
+[LOG][2021-03-12 19:05:05.368]03/12/2021,19:05:05.107,System 9ec7eba204a4 with 8 cores and 60.0 GB of RAM
+[LOG][2021-03-12 19:05:05.368]03/12/2021,19:05:05.108,Workflow: WholeGenomeRnaSeqWorker, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null 2.6.25.18
+[LOG][2021-03-12 19:05:05.368]03/12/2021,19:05:05.108,Genome folders: /genomes/Homo_sapiens_maskedPAR/UCSC/hg19 
+[LOG][2021-03-12 19:05:05.369]03/12/2021,19:05:05.111,Entering whole genome
+[LOG][2021-03-12 19:05:05.369]03/12/2021,19:05:05.111,Using default IsisRNATools_DIR: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools
+[LOG][2021-03-12 19:05:05.369]03/12/2021,19:05:05.114,Sample index is 0
+[LOG][2021-03-12 19:05:05.369]03/12/2021,19:05:05.114,Sample name CTR
+[LOG][2021-03-12 19:05:05.370]03/12/2021,19:05:05.119,Sample genome 
+[LOG][2021-03-12 19:05:05.370]03/12/2021,19:05:05.119,Sample genome index is 0
+[LOG][2021-03-12 19:05:05.370]03/12/2021,19:05:05.215,Using annotation 
+[LOG][2021-03-12 19:05:05.370]03/12/2021,19:05:05.233,Starting from Checkpoint 1
+[LOG][2021-03-12 19:05:13.870]03/12/2021,19:05:13.713,Step 2 of 11 : Alignment
+[LOG][2021-03-12 19:05:13.870]03/12/2021,19:05:13.713,Starting alignment
+[LOG][2021-03-12 19:05:13.870]03/12/2021,19:05:13.716,Checking abundant sequences for /genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/STARindex2
+[LOG][2021-03-12 19:05:13.871]03/12/2021,19:05:13.718,Filtering against 7 abundant sequences at /genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/AbundantSequences
+[LOG][2021-03-12 19:05:14.370]03/12/2021,19:05:14.083,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 19:05:14.370]03/12/2021,19:05:14.088,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/bowtie-build '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/AbundantSequences/AbundantSequences.fa' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/AbundantSequences/AbundantSequences'
+[LOG][2021-03-12 19:05:14.870]03/12/2021,19:05:14.815,Max job memory (GB): 0.4
+[LOG][2021-03-12 19:05:14.870]03/12/2021,19:05:14.815,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 19:05:14.870]03/12/2021,19:05:14.817,>>>Total abundant indexing time: 00:00:00.7
+[LOG][2021-03-12 19:05:14.870]03/12/2021,19:05:14.818,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 19:05:14.870]03/12/2021,19:05:14.818,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/python  /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/scripts/filterReads.py --bowtie-reference '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/AbundantSequences/AbundantSequences' --read1 '/data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L001_R1_001.fastq.gz' --read1 '/data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L002_R1_002.fastq.gz' --read1 '/data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L003_R1_003.fastq.gz' --read1 '/data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L004_R1_004.fastq.gz' --read2 '/data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L001_R2_001.fastq.gz' --read2 '/data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L002_R2_002.fastq.gz' --read2 '/data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L003_R2_003.fastq.gz' --read2 '/data/scratch/workspace/RunFolder/Analysis/Fastq/CTR/CTR_S1_L004_R2_004.fastq.gz' --bam-output '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/abundant_alignments.bam' --trim5=0 --trim3=0  --read1-output '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/CTR_S1_L001_R1_001.fastq.gz' --read2-output '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/CTR_S1_L001_R2_001.fastq.gz'
+[LOG][2021-03-12 19:32:01.202]03/12/2021,19:32:01.146,Max job memory (GB): 0.7
+[LOG][2021-03-12 19:32:01.202]03/12/2021,19:32:01.146,Longest job runtime (Hours): 0.4
+[LOG][2021-03-12 19:32:01.203]03/12/2021,19:32:01.146,>>>Total filtering time: 00:26:46.3
+[LOG][2021-03-12 19:32:01.203]03/12/2021,19:32:01.146,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 19:32:01.203]03/12/2021,19:32:01.147,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/python  /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/scripts/generateReadInfo.py --input-file='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/CTR_S1_L001_R1_001.fastq.gz' --output-file='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/CTR_S1_L001_R1_001.fastq.gz.info'
+[LOG][2021-03-12 19:33:19.221]03/12/2021,19:33:18.959,Max job memory (GB): 0.8
+[LOG][2021-03-12 19:33:19.221]03/12/2021,19:33:18.959,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 19:33:19.221]03/12/2021,19:33:18.959,>>>Total read info time: 00:01:17.8
+[LOG][2021-03-12 19:33:19.221]03/12/2021,19:33:18.964,Reserving 47 GB RAM for STAR
+[LOG][2021-03-12 19:33:19.222]03/12/2021,19:33:18.964,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 19:33:19.222]03/12/2021,19:33:18.964,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/STAR  --parametersFiles '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/STAR_Align/parameters.txt' --outFileNamePrefix '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/STAR_Align/' --runThreadN 8
+[LOG][2021-03-12 20:13:37.751]03/12/2021,20:13:37.276,Max job memory (GB): 34.2
+[LOG][2021-03-12 20:13:37.751]03/12/2021,20:13:37.276,Longest job runtime (Hours): 0.7
+[LOG][2021-03-12 20:13:37.751]03/12/2021,20:13:37.276,>>>Total STAR alignment time: 00:40:18.3
+[LOG][2021-03-12 20:13:37.751]03/12/2021,20:13:37.283,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 20:13:37.751]03/12/2021,20:13:37.283,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/samtools  index '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/STAR_Align/Aligned.sortedByCoord.out.bam'
+[LOG][2021-03-12 20:14:55.769]03/12/2021,20:14:55.434,Max job memory (GB): 0.8
+[LOG][2021-03-12 20:14:55.769]03/12/2021,20:14:55.434,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 20:14:55.769]03/12/2021,20:14:55.434,>>>Total BAM indexing time: 00:01:18.1
+[LOG][2021-03-12 20:14:55.769]03/12/2021,20:14:55.435,Converting Splice-junction table from STAR to TopHat format
+[LOG][2021-03-12 20:14:56.655]Launch process: bash -c 'ln -s "../STAR_Align/Aligned.sortedByCoord.out.bam" "/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam"'
+[LOG][2021-03-12 20:14:56.771]03/12/2021,20:14:56.651,Linking STAR alignment results from STAR_Align alignments
+[LOG][2021-03-12 20:14:57.215]Max job memory (GB): 0.9
+[LOG][2021-03-12 20:14:57.215]Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 20:14:57.215]Launch process: bash -c 'ln -s "../STAR_Align/Aligned.sortedByCoord.out.bam.bai" "/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam.bai"'
+[LOG][2021-03-12 20:14:57.721]Max job memory (GB): 0.9
+[LOG][2021-03-12 20:14:57.721]Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 20:14:57.773]03/12/2021,20:14:57.724,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 20:14:57.773]03/12/2021,20:14:57.724,Launch process: /bin/bash -o pipefail -c "  '/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/genomeCoverageBed' -bg -trackline -trackopts 'name=CTR' -split -ibam '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam' > '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/coverage.bedGraph' " 
+[LOG][2021-03-12 20:27:11.443]03/12/2021,20:27:11.272,Max job memory (GB): 0.9
+[LOG][2021-03-12 20:27:11.443]03/12/2021,20:27:11.272,Longest job runtime (Hours): 0.2
+[LOG][2021-03-12 20:27:11.443]03/12/2021,20:27:11.272,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 20:27:11.443]03/12/2021,20:27:11.272,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/bedGraphToBigWig  '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/coverage.bedGraph' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/GenomeInfo.txt' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/coverage.bw'
+[LOG][2021-03-12 20:29:49.981]03/12/2021,20:29:49.635,Max job memory (GB): 0.9
+[LOG][2021-03-12 20:29:49.981]03/12/2021,20:29:49.635,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 20:29:49.981]03/12/2021,20:29:49.635,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 20:29:49.981]03/12/2021,20:29:49.635,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/bgzip  -f '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/coverage.bedGraph'
+[LOG][2021-03-12 20:31:37.006]03/12/2021,20:31:36.514,Max job memory (GB): 0.9
+[LOG][2021-03-12 20:31:37.006]03/12/2021,20:31:36.514,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 20:31:37.006]03/12/2021,20:31:36.514,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 20:31:37.006]03/12/2021,20:31:36.514,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/tabix  -S 1 -p bed '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/coverage.bedGraph.gz'
+[LOG][2021-03-12 20:31:57.011]03/12/2021,20:31:56.991,Max job memory (GB): 0.9
+[LOG][2021-03-12 20:31:57.011]03/12/2021,20:31:56.991,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 20:31:57.011]03/12/2021,20:31:56.991,>>>Total coverage generation time: 00:16:59.2
+[LOG][2021-03-12 20:31:57.512]03/12/2021,20:31:57.409,Elapsed time (step/time(sec)/name)	2	5203.7	Alignment
+[LOG][2021-03-12 20:31:57.512]03/12/2021,20:31:57.410,Step 3 of 11 : Fusion calling
+[LOG][2021-03-12 20:31:57.513]03/12/2021,20:31:57.410,Starting fusion calling
+[LOG][2021-03-12 20:31:57.513]03/12/2021,20:31:57.411,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 20:31:57.513]03/12/2021,20:31:57.412,Launch process: /opt/illumina/Isis/packages/jdk1.6.0_32/bin/java  -Xmx4G -jar /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/picard/picard.jar MarkDuplicates INPUT='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam' OUTPUT='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam.tmp-mkDup.bam' METRICS_FILE=''/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam.tmp-mkDup.bam'.dubMetrics.txt'  TMP_DIR='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments' CREATE_INDEX=true
+[LOG][2021-03-12 20:58:56.377]03/12/2021,20:58:56.188,Max job memory (GB): 5.3
+[LOG][2021-03-12 20:58:56.377]03/12/2021,20:58:56.188,Longest job runtime (Hours): 0.4
+[LOG][2021-03-12 20:58:56.377]03/12/2021,20:58:56.188,>>>Total mark duplicate time: 00:26:58.7
+[LOG][2021-03-12 20:58:56.377]03/12/2021,20:58:56.193,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/python  '/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/Manta/bin/configManta.py'  --rna --normalBam='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam' --runDir='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/MantaFusions/manta.run' --referenceFasta='/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/WholeGenomeFasta/genome.fa' --config '/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/scripts/configManta.py.ini'
+[LOG][2021-03-12 20:58:57.378]03/12/2021,20:58:56.995,Max job memory (GB): 0.9
+[LOG][2021-03-12 20:58:57.378]03/12/2021,20:58:56.995,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 20:58:57.378]03/12/2021,20:58:56.995,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 20:58:57.379]03/12/2021,20:58:56.995,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/python  '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/MantaFusions/manta.run/runWorkflow.py'  --mode local --jobs 8
+[LOG][2021-03-12 21:06:48.982]03/12/2021,21:06:48.896,Max job memory (GB): 0.9
+[LOG][2021-03-12 21:06:48.982]03/12/2021,21:06:48.896,Longest job runtime (Hours): 0.1
+[LOG][2021-03-12 21:06:48.982]03/12/2021,21:06:48.897,>>>Total Manta run time: 00:07:52.7
+[LOG][2021-03-12 21:06:49.483]03/12/2021,21:06:49.183,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 21:06:49.483]03/12/2021,21:06:49.184,Launch process: /opt/illumina/Isis/packages/mono-3.10.0/bin/mono '/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/RNAFusionFilter.exe' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/MantaFusions/manta.run/results/variants/diploidSV.vcf.gz' '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Annotation/Archives/archive-2015-07-17-14-32-32/Genes/genes.gtf' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam' '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/BWAIndex/genome.fa' wgRNA '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/MantaFusions/fusions.csv'
+[LOG][2021-03-12 21:09:39.021]03/12/2021,21:09:39.005,Max job memory (GB): 0.9
+[LOG][2021-03-12 21:09:39.021]03/12/2021,21:09:39.005,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 21:09:39.021]03/12/2021,21:09:39.005,>>>Total fusion filter time: 00:02:49.8
+[LOG][2021-03-12 21:09:39.522]03/12/2021,21:09:39.021,Elapsed time (step/time(sec)/name)	3	2261.6	Fusion calling
+[LOG][2021-03-12 21:09:39.522]03/12/2021,21:09:39.021,Step 4 of 11 : Variant analysis
+[LOG][2021-03-12 21:09:39.522]03/12/2021,21:09:39.022,Starting variant calling
+[LOG][2021-03-12 21:09:39.523]03/12/2021,21:09:39.023,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 21:09:39.523]03/12/2021,21:09:39.023,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/samtools  rmdup '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/filtered_tmp.bam.rmdup_tmp.bam'
+[LOG][2021-03-12 21:23:50.722]03/12/2021,21:23:50.469,Max job memory (GB): 0.9
+[LOG][2021-03-12 21:23:50.722]03/12/2021,21:23:50.469,Longest job runtime (Hours): 0.2
+[LOG][2021-03-12 21:23:50.722]03/12/2021,21:23:50.469,>>>Total duplicate removal time: 00:14:11.4
+[LOG][2021-03-12 21:23:50.722]03/12/2021,21:23:50.475,Filtering /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/filtered_tmp.bam for variant calling
+[LOG][2021-03-12 21:42:39.977]03/12/2021,21:42:39.799,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-12 21:42:39.977]03/12/2021,21:42:39.800,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/samtools  index '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/filtered_tmp.bam'
+[LOG][2021-03-12 21:43:33.990]03/12/2021,21:43:33.872,Max job memory (GB): 0.9
+[LOG][2021-03-12 21:43:33.990]03/12/2021,21:43:33.872,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 21:43:33.990]03/12/2021,21:43:33.872,>>>Total alignment trimming for variant calling time: 00:19:43.4
+[LOG][2021-03-12 21:43:33.991]03/12/2021,21:43:33.885,Not passing SV indel candidates as input to starling - either Manta was not invoked (e.g. for RNA), it failed, or the file at /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/TempSVCandidateIndels/filtered_tmp.SV.IndelCandidates.vcf.gz has been deleted
+[LOG][2021-03-12 21:43:33.993]03/12/2021,21:43:33.886,Launch process: bash -o pipefail -c "  '/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/Starling/bin/configureStarlingWorkflow.py'  --bam='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/filtered_tmp.bam'  --referenceFasta='/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/WholeGenomeFasta/genome.fa'  --runDir='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/StarlingTemp_CTR'  --config='/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/StarlingTemp_CTR/config.ini'  --rna " 
+[LOG][2021-03-12 21:43:34.491]03/12/2021,21:43:34.460,Max job memory (GB): 0.9
+[LOG][2021-03-12 21:43:34.491]03/12/2021,21:43:34.460,Longest job runtime (Hours): 0.0
+[LOG][2021-03-12 21:43:34.491]03/12/2021,21:43:34.462,Launch process: bash -o pipefail -c "  '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/StarlingTemp_CTR/runWorkflow.py' -m local  " 
+[LOG][2021-03-12 22:18:48.976]03/12/2021,22:18:48.593,Max job memory (GB): 0.9
+[LOG][2021-03-12 22:18:48.976]03/12/2021,22:18:48.593,Longest job runtime (Hours): 0.6
+[LOG][2021-03-12 22:18:49.477]03/12/2021,22:18:49.093,>>>IONAWrapper start on 1 input files
+[LOG][2021-03-12 22:18:49.477]03/12/2021,22:18:49.109,Launch process: /opt/illumina/Isis/packages/mono-3.10.0/bin/mono "/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/Annotate.exe" -X /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/IONA_CTR_0.xml
+[LOG][2021-03-13 00:35:53.312]03/13/2021,00:35:52.931,Max job memory (GB): 4.1
+[LOG][2021-03-13 00:35:53.312]03/13/2021,00:35:52.931,Longest job runtime (Hours): 2.3
+[LOG][2021-03-13 00:35:53.313]03/13/2021,00:35:52.974,>>>IONAWrapper complete.
+[LOG][2021-03-13 00:35:53.313]03/13/2021,00:35:52.975,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-13 00:35:53.313]03/13/2021,00:35:52.975,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/tabix  -p vcf -f '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.vcf.gz'
+[LOG][2021-03-13 00:35:53.315]03/13/2021,00:35:52.979,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/tabix  -p vcf -f '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.gvcf.gz'
+[LOG][2021-03-13 00:36:12.317]03/13/2021,00:36:12.212,Max job memory (GB): 0.9
+[LOG][2021-03-13 00:36:12.317]03/13/2021,00:36:12.212,Longest job runtime (Hours): 0.0
+[LOG][2021-03-13 00:36:12.317]03/13/2021,00:36:12.212,>>>Variant indexing time: 00:00:19.2
+[LOG][2021-03-13 00:36:12.317]03/13/2021,00:36:12.212,>>>Total variant annotating time: 02:17:23.1
+[LOG][2021-03-13 00:36:13.317]03/13/2021,00:36:13.028,Computing variant metrics from /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.gvcf.gz
+[LOG][2021-03-13 00:39:48.877]03/13/2021,00:39:48.390,Writing variant metrics to /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/variants/calls.csv
+[LOG][2021-03-13 00:39:48.878]03/13/2021,00:39:48.401,Elapsed time (step/time(sec)/name)	4	12609.4	Variant analysis
+[LOG][2021-03-13 00:39:48.878]03/13/2021,00:39:48.401,Step 5 of 11 : Reference abundance estimation
+[LOG][2021-03-13 00:39:48.879]03/13/2021,00:39:48.401,Starting reference abundance estimation
+[LOG][2021-03-13 00:39:48.880]03/13/2021,00:39:48.407,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-13 00:39:48.880]03/13/2021,00:39:48.407,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/cuffquant  -q --no-update-check --output-dir '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/reference' --library-type fr-firststrand -p 7 '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Annotation/Archives/archive-2015-07-17-14-32-32/Genes/genes.gtf' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam' --frag-bias-correct '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/WholeGenomeFasta/genome.fa' --multi-read-correct
+[LOG][2021-03-13 01:46:52.778]03/13/2021,01:46:52.469,Max job memory (GB): 2.1
+[LOG][2021-03-13 01:46:52.778]03/13/2021,01:46:52.469,Longest job runtime (Hours): 1.1
+[LOG][2021-03-13 01:46:52.778]03/13/2021,01:46:52.469,>>>Total reference cufflinks estimation time: 01:07:04.0
+[LOG][2021-03-13 01:46:52.778]03/13/2021,01:46:52.469,Starting read counting
+[LOG][2021-03-13 01:46:52.778]03/13/2021,01:46:52.471,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-13 01:46:52.778]03/13/2021,01:46:52.472,Launch process: /opt/illumina/Isis/packages/mono-3.10.0/bin/mono  '/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/RnaReadCounter.exe'  '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Annotation/Archives/archive-2015-07-17-14-32-32/Genes/genes.gtf' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam' stranded 50 '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/counts/counts.genes'
+[LOG][2021-03-13 01:53:23.865]03/13/2021,01:53:23.690,Max job memory (GB): 0.9
+[LOG][2021-03-13 01:53:23.865]03/13/2021,01:53:23.690,Longest job runtime (Hours): 0.1
+[LOG][2021-03-13 01:53:23.866]03/13/2021,01:53:23.714,>>>Total read counting time: 00:06:31.2
+[LOG][2021-03-13 01:53:23.866]03/13/2021,01:53:23.714,Elapsed time (step/time(sec)/name)	5	4415.3	Reference abundance estimation
+[LOG][2021-03-13 01:53:23.866]03/13/2021,01:53:23.714,Step 6 of 11 : Per-replicate metrics
+[LOG][2021-03-13 01:53:23.867]03/13/2021,01:53:23.714,Starting Per-replicate metrics
+[LOG][2021-03-13 01:53:47.840]03/13/2021,01:53:47.481,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-13 01:53:47.840]03/13/2021,01:53:47.481,Launch process: /opt/illumina/Isis/packages/mono-3.10.0/bin/mono /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/RnaReplicateStats.exe --replicate-directory "/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR" --reference-path "/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/STARindex2" --annotation-path "/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/TempGenes" --bam-path "/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam" --rna-tools "/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools" -p 8 --stranded
+[LOG][2021-03-13 02:36:43.862]03/13/2021,02:36:43.716,Max job memory (GB): 2.3
+[LOG][2021-03-13 02:36:43.862]03/13/2021,02:36:43.716,Longest job runtime (Hours): 0.7
+[LOG][2021-03-13 02:36:43.862]03/13/2021,02:36:43.717,>>>Total RNA Replicate Stats run time: 00:42:56.2
+[LOG][2021-03-13 02:36:43.862]03/13/2021,02:36:43.717,Elapsed time (step/time(sec)/name)	6	2600.0	Per-replicate metrics
+[LOG][2021-03-13 02:36:43.862]03/13/2021,02:36:43.717,Step 7 of 11 : Cufflinks assembly
+[LOG][2021-03-13 02:36:43.863]03/13/2021,02:36:43.717,Starting cufflinks assembly
+[LOG][2021-03-13 02:36:43.863]03/13/2021,02:36:43.718,Filtering intronic reads
+[LOG][2021-03-13 02:36:43.863]03/13/2021,02:36:43.718,>>>Total intron filtering time: 00:00:00.0
+[LOG][2021-03-13 02:36:43.863]03/13/2021,02:36:43.721,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-13 02:36:43.863]03/13/2021,02:36:43.722,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/cufflinks  -q --no-update-check --output-dir '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/assembly' --library-type fr-firststrand -p 7 --frag-bias-correct '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/WholeGenomeFasta/genome.fa' --multi-read-correct --min-isoform-fraction '0.1' --pre-mrna-fraction '0.15' --max-intron-length '300000' --min-intron-length '50' --min-frags-per-transfrag '10' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam'
+[LOG][2021-03-13 06:57:50.477]03/13/2021,06:57:50.044,Max job memory (GB): 5.3
+[LOG][2021-03-13 06:57:50.477]03/13/2021,06:57:50.044,Longest job runtime (Hours): 4.4
+[LOG][2021-03-13 06:57:50.477]03/13/2021,06:57:50.044,>>>Total cufflinks assembly time: 04:21:06.3
+[LOG][2021-03-13 06:57:50.477]03/13/2021,06:57:50.044,Elapsed time (step/time(sec)/name)	7	15666.3	Cufflinks assembly
+[LOG][2021-03-13 06:57:50.477]03/13/2021,06:57:50.045,Step 8 of 11 : Cufflinks sample merging
+[LOG][2021-03-13 06:57:50.478]03/13/2021,06:57:50.048,Adding single sample to FPKM table twice to allow cuffnorm run
+[LOG][2021-03-13 06:57:50.479]03/13/2021,06:57:50.049,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-13 06:57:50.479]03/13/2021,06:57:50.049,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/cuffnorm  --output-dir '/data/scratch/workspace/RunFolder/Analysis/differential/global' --num-threads 1 --output-format cuffdiff --compatible-hits-norm -L CTR,CTR '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Annotation/Archives/archive-2015-07-17-14-32-32/Genes/genes.gtf' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/reference/abundances.cxb' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/reference/abundances.cxb'
+[LOG][2021-03-13 07:00:44.272]03/13/2021,07:00:44.032,Max job memory (GB): 2.1
+[LOG][2021-03-13 07:00:44.272]03/13/2021,07:00:44.032,Longest job runtime (Hours): 0.0
+[LOG][2021-03-13 07:00:44.773]03/13/2021,07:00:44.511,>>>Total global cuffnorm run time: 00:02:54.4
+[LOG][2021-03-13 07:00:44.773]03/13/2021,07:00:44.511,Starting cufflinks sample merging
+[LOG][2021-03-13 07:00:44.773]03/13/2021,07:00:44.517,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-13 07:00:44.773]03/13/2021,07:00:44.517,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/cuffmerge  -o '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/cuffmerge' -g '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Annotation/Archives/archive-2015-07-17-14-32-32/Genes/genes.gtf' -p 7 '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/cuffmerge/GTF_list.txt'
+[LOG][2021-03-13 07:04:04.810]03/13/2021,07:04:04.631,Max job memory (GB): 0.9
+[LOG][2021-03-13 07:04:04.810]03/13/2021,07:04:04.631,Longest job runtime (Hours): 0.1
+[LOG][2021-03-13 07:04:04.810]03/13/2021,07:04:04.631,DoWorkParallelThreads, attempt 1
+[LOG][2021-03-13 07:04:04.810]03/13/2021,07:04:04.631,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/cufflinks  -q --no-update-check -p 7 --output-dir '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/cuffmerge/quantification' --library-type fr-firststrand --frag-bias-correct '/genomes/Homo_sapiens_maskedPAR/UCSC/hg19/Sequence/WholeGenomeFasta/genome.fa' --multi-read-correct --total-hits-norm --GTF '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/cuffmerge/merged.gtf' '/data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam'
+[LOG][2021-03-13 09:57:59.327]03/13/2021,09:57:58.854,Max job memory (GB): 2.1
+[LOG][2021-03-13 09:57:59.327]03/13/2021,09:57:58.854,Longest job runtime (Hours): 2.9
+[LOG][2021-03-13 09:57:59.327]03/13/2021,09:57:58.854,>>>Total novel cufflinks estimation time: 02:53:54.2
+[LOG][2021-03-13 09:57:59.327]03/13/2021,09:57:59.229,>>>Total novel cuffnorm time: 00:00:00.3
+[LOG][2021-03-13 09:57:59.327]03/13/2021,09:57:59.229,Elapsed time (step/time(sec)/name)	8	10809.2	Cufflinks sample merging
+[LOG][2021-03-13 09:57:59.327]03/13/2021,09:57:59.229,Step 9 of 11 : Differential expression
+[LOG][2021-03-13 09:57:59.328]03/13/2021,09:57:59.229,Starting differential expression
+[LOG][2021-03-13 09:57:59.328]03/13/2021,09:57:59.231,>>>Total cuffmerge time: 00:00:00.0
+[LOG][2021-03-13 09:57:59.328]03/13/2021,09:57:59.231,>>>Total cuffdiff estimation time: 00:00:00.0
+[LOG][2021-03-13 09:57:59.329]03/13/2021,09:57:59.232,>>>Total cuffdiff time: 00:00:00.0
+[LOG][2021-03-13 09:57:59.329]03/13/2021,09:57:59.232,Elapsed time (step/time(sec)/name)	9	0.0	Differential expression
+[LOG][2021-03-13 09:57:59.329]03/13/2021,09:57:59.232,Step 10 of 11 : Differential expression metrics
+[LOG][2021-03-13 09:57:59.329]03/13/2021,09:57:59.232,Starting differential expression metrics
+[LOG][2021-03-13 09:58:17.833]03/13/2021,09:58:17.826,Elapsed time (step/time(sec)/name)	10	18.6	Differential expression metrics
+[LOG][2021-03-13 09:58:17.833]03/13/2021,09:58:17.826,Step 11 of 11 : Report generation
+[LOG][2021-03-13 09:58:17.833]03/13/2021,09:58:17.826,Starting report generation
+[LOG][2021-03-13 09:58:17.833]03/13/2021,09:58:17.827,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/python  /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/scripts/createDeliverable.py --alignment-directory='/data/scratch/workspace/RunFolder/Analysis' --processes=1
+[LOG][2021-03-13 09:58:35.336]03/13/2021,09:58:35.084,Max job memory (GB): 0.9
+[LOG][2021-03-13 09:58:35.336]03/13/2021,09:58:35.084,Longest job runtime (Hours): 0.0
+[LOG][2021-03-13 09:58:35.336]03/13/2021,09:58:35.084,>>>Total createDeliverable run time: 00:00:17.2
+[LOG][2021-03-13 09:58:37.337]03/13/2021,09:58:36.853,Global expression plots: False
+[LOG][2021-03-13 09:58:37.337]03/13/2021,09:58:36.853,Generating static report
+[LOG][2021-03-13 09:58:37.337]03/13/2021,09:58:36.853,Launch process: /opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/bin/python '/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/scripts/generateStaticReport.py' --alignment-directory='/data/scratch/workspace/RunFolder/Analysis' --output-html='/data/scratch/workspace/RunFolder/Analysis/Summary/Report/index.html' --template-directory '/opt/illumina/Isis/2.6.25.18/Workflows/WholeGenomeRnaSeqWorker/IsisRNA_Tools/data/templates'
+[LOG][2021-03-13 09:58:44.339]03/13/2021,09:58:44.272,Max job memory (GB): 0.9
+[LOG][2021-03-13 09:58:44.339]03/13/2021,09:58:44.272,Longest job runtime (Hours): 0.0
+[LOG][2021-03-13 09:58:44.339]03/13/2021,09:58:44.273,>>>Total staticReport run time: 00:00:07.4
+[LOG][2021-03-13 09:58:44.840]03/13/2021,09:58:44.769,Using phantomjs executable located at at: /data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomjs-1.9.8/bin/phantomjs
+[LOG][2021-03-13 09:58:44.842]03/13/2021,09:58:44.769,Launch process: /data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomjs-1.9.8/bin/phantomjs '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomRender.js' '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/insertLengthDistribution.html' '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/CTR_CTR.insert_length_distribution.png'
+[LOG][2021-03-13 09:58:47.841]03/13/2021,09:58:47.362,Max job memory (GB): 1.2
+[LOG][2021-03-13 09:58:47.842]03/13/2021,09:58:47.362,Longest job runtime (Hours): 0.0
+[LOG][2021-03-13 09:58:47.842]03/13/2021,09:58:47.489,Using phantomjs executable located at at: /data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomjs-1.9.8/bin/phantomjs
+[LOG][2021-03-13 09:58:47.843]03/13/2021,09:58:47.489,Launch process: /data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomjs-1.9.8/bin/phantomjs '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomRender.js' '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/alignmentDistribution.html' '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/CTR_CTR.alignment_distribution.png'
+[LOG][2021-03-13 09:58:49.342]03/13/2021,09:58:49.231,Max job memory (GB): 1.2
+[LOG][2021-03-13 09:58:49.343]03/13/2021,09:58:49.231,Longest job runtime (Hours): 0.0
+[LOG][2021-03-13 09:58:49.343]03/13/2021,09:58:49.272,Using phantomjs executable located at at: /data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomjs-1.9.8/bin/phantomjs
+[LOG][2021-03-13 09:58:49.344]03/13/2021,09:58:49.272,Launch process: /data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomjs-1.9.8/bin/phantomjs '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/phantomRender.js' '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/plotting_CTR/transcriptCoverage.html' '/data/scratch/workspace/RunFolder/Analysis/Summary/Report/CTR_CTR.transcript_coverage.png'
+[LOG][2021-03-13 09:58:51.344]03/13/2021,09:58:51.083,Max job memory (GB): 1.2
+[LOG][2021-03-13 09:58:51.344]03/13/2021,09:58:51.083,Longest job runtime (Hours): 0.0
+[LOG][2021-03-13 09:58:53.345]03/13/2021,09:58:53.293,Image not found at CTR_CTR.insert_length_distribution.jpg
+[LOG][2021-03-13 09:58:53.345]03/13/2021,09:58:53.293,Image found at /data/scratch/workspace/RunFolder/Analysis/Summary/Report/CTR_CTR.insert_length_distribution.jpg
+[LOG][2021-03-13 09:58:53.346]03/13/2021,09:58:53.299,Image not found at CTR_CTR.alignment_distribution.jpg
+[LOG][2021-03-13 09:58:53.346]03/13/2021,09:58:53.299,Image found at /data/scratch/workspace/RunFolder/Analysis/Summary/Report/CTR_CTR.alignment_distribution.jpg
+[LOG][2021-03-13 09:58:53.347]03/13/2021,09:58:53.303,Image not found at CTR_CTR.transcript_coverage.jpg
+[LOG][2021-03-13 09:58:53.347]03/13/2021,09:58:53.303,Image found at /data/scratch/workspace/RunFolder/Analysis/Summary/Report/CTR_CTR.transcript_coverage.jpg
+[LOG][2021-03-13 09:58:53.846]03/13/2021,09:58:53.348,>>>Total report generation time: 00:00:09.0
+[LOG][2021-03-13 09:58:53.846]03/13/2021,09:58:53.348,Not enough samples to generate aggregates. Requires at least two samples as input.
+[LOG][2021-03-13 09:58:53.846]03/13/2021,09:58:53.348,>>>Total aggregate generation time: 00:00:00.0
+[LOG][2021-03-13 09:58:53.846]03/13/2021,09:58:53.349,No pairwise differential expression analysis was specified.
+[LOG][2021-03-13 09:58:53.847]03/13/2021,09:58:53.349,>>>Total differential expression report generation time: 00:00:00.0
+[LOG][2021-03-13 09:58:53.847]03/13/2021,09:58:53.349,Not enough samples to generate a global analysis report. Requires at least two samples as input.
+[LOG][2021-03-13 09:58:53.848]03/13/2021,09:58:53.349,>>>Total global analysis report generation time: 00:00:00.0
+[LOG][2021-03-13 09:58:53.848]03/13/2021,09:58:53.349,Elapsed time (step/time(sec)/name)	11	35.5	Report generation
+[LOG][2021-03-13 09:58:53.848]03/13/2021,09:58:53.349,Saving Completed Job Information to /data/scratch/workspace/RunFolder/Analysis
+[LOG][2021-03-13 09:58:53.849]03/13/2021,09:58:53.350,Total execution time: 14:53:48.3
+[LOG][2021-03-13 09:58:54.346]Ending Execution for /data/scratch/workspace/RunFolder
+[LOG][2021-03-13 09:58:54.346]Worker Thread Exit for /data/scratch/workspace/RunFolder
+[LOG][2021-03-13 09:58:54.413]"/opt/illumina/Isis/latest/Isis" -r "/data/scratch/workspace/RunFolder" -a "/data/scratch/workspace/RunFolder/Analysis" -c 1 exited with code 0
+Zip compressing /data/scratch/workspace/RunFolder/Analysis/Logging to /data/scratch/workspace/RunFolder/Analysis/Logging.zip
+[LOG][2021-03-13 10:51:56.313]Cleaning directory /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/MantaFusions/manta.run
+[LOG][2021-03-13 10:51:56.323]De-referencing alignment links for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR
+[LOG][2021-03-13 10:51:56.323]De-reference /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam
+[LOG][2021-03-13 10:52:01.147]De-reference /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam.bai
+[LOG][2021-03-13 10:52:01.155]De-reference /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/alignments.bam.tmp-mkDup.bam.dubMetrics.txt
+[LOG][2021-03-13 10:52:01.155]De-reference /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/coverage.bedGraph.gz
+[LOG][2021-03-13 10:52:01.687]De-reference /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/coverage.bedGraph.gz.tbi
+[LOG][2021-03-13 10:52:01.689]De-reference /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/coverage.bw
+[LOG][2021-03-13 10:52:02.836]De-reference /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/junctions.bed
+[LOG][2021-03-13 10:52:25.926]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/CTR.coverage.bedGraph.gz.tbi
+[LOG][2021-03-13 10:52:25.927]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/assembly/CTR.isoforms.fpkm_tracking
+[LOG][2021-03-13 10:52:25.927]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/CTR.abundant_alignments.bam
+[LOG][2021-03-13 10:52:25.935]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.gvcf.gz
+[LOG][2021-03-13 10:52:25.936]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/CTR.coverage.bedGraph.gz
+[LOG][2021-03-13 10:52:25.943]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/counts/Metrics.csv
+[LOG][2021-03-13 10:52:25.943]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/abundant/read2_Metrics.csv
+[LOG][2021-03-13 10:52:25.944]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/abundant/read1_Metrics.csv
+[LOG][2021-03-13 10:52:25.944]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.vcf.gz.tbi
+[LOG][2021-03-13 10:52:25.947]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/000_R2_Metrics.csv
+[LOG][2021-03-13 10:52:25.948]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/000_R1_QScoreData.csv
+[LOG][2021-03-13 10:52:25.948]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/000_R1_Metrics.csv
+[LOG][2021-03-13 10:52:25.948]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/fusion/Metrics.csv
+[LOG][2021-03-13 10:52:25.949]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/full_alignment/read2_QScoreData.csv
+[LOG][2021-03-13 10:52:25.949]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/001_R2_Metrics.csv
+[LOG][2021-03-13 10:52:25.949]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/001_R1_QScoreData.csv
+[LOG][2021-03-13 10:52:25.950]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/001_R1_Metrics.csv
+[LOG][2021-03-13 10:52:25.950]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/000_R2_QScoreData.csv
+[LOG][2021-03-13 10:52:25.951]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/counts/CTR.counts.genes.coverage.txt
+[LOG][2021-03-13 10:52:25.951]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.vcf.gz.ant.idx
+[LOG][2021-03-13 10:52:25.955]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/full_alignment/read2_Metrics.csv
+[LOG][2021-03-13 10:52:25.955]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/002_R2_QScoreData.csv
+[LOG][2021-03-13 10:52:25.955]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/002_R2_Metrics.csv
+[LOG][2021-03-13 10:52:25.956]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/002_R1_QScoreData.csv
+[LOG][2021-03-13 10:52:25.956]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/002_R1_Metrics.csv
+[LOG][2021-03-13 10:52:25.956]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/full_alignment/read1_QScoreData.csv
+[LOG][2021-03-13 10:52:25.956]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/reference/CTR.genes.fpkm_tracking
+[LOG][2021-03-13 10:52:25.956]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/001_R2_QScoreData.csv
+[LOG][2021-03-13 10:52:25.957]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/full_alignment/read1_Metrics.csv
+[LOG][2021-03-13 10:52:25.956]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/sampled_alignment/read1_PicardCoverage.csv
+[LOG][2021-03-13 10:52:25.957]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/003_R2_QScoreData.csv
+[LOG][2021-03-13 10:52:25.957]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/sampled_alignment/read1_Metrics.csv
+[LOG][2021-03-13 10:52:25.957]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/003_R2_Metrics.csv
+[LOG][2021-03-13 10:52:25.958]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/sampled_alignment/combined_PicardCoverage.csv
+[LOG][2021-03-13 10:52:25.958]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/003_R1_QScoreData.csv
+[LOG][2021-03-13 10:52:25.958]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/sampled_alignment/combined_Metrics.csv
+[LOG][2021-03-13 10:52:25.958]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/reads/003_R1_Metrics.csv
+[LOG][2021-03-13 10:52:25.958]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/sampled_alignment/combined_InsertLengthData.csv
+[LOG][2021-03-13 10:52:25.959]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/MantaFusions/renaming_log.txt
+[LOG][2021-03-13 10:52:25.959]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/variants/calls.csv
+[LOG][2021-03-13 10:52:25.959]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/sampled_alignment/read2_PicardCoverage.csv
+[LOG][2021-03-13 10:52:25.957]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/full_alignment/combined_Metrics.csv
+[LOG][2021-03-13 10:52:25.960]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/metrics/sampled_alignment/read2_Metrics.csv
+[LOG][2021-03-13 10:52:25.960]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/counts/CTR.counts.genes.geneinfo.txt
+[LOG][2021-03-13 10:52:25.961]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/reference/CTR.isoforms.fpkm_tracking
+[LOG][2021-03-13 10:52:25.965]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/fusions/CTR.fusions.csv
+[LOG][2021-03-13 10:52:25.977]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/CTR.alignments.bam
+[LOG][2021-03-13 10:52:26.006]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/counts/renaming_log.txt
+[LOG][2021-03-13 10:52:26.006]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/reference/renaming_log.txt
+[LOG][2021-03-13 10:52:26.007]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/fusions/renaming_log.txt
+[LOG][2021-03-13 10:52:26.106]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/assembly/CTR.genes.fpkm_tracking
+[LOG][2021-03-13 10:52:26.227]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/reference/CTR.abundances.cxb
+[LOG][2021-03-13 10:52:26.430]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/assembly/renaming_log.txt
+[LOG][2021-03-13 10:52:26.430]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/assembly/CTR.transcripts.gtf
+[LOG][2021-03-13 10:52:27.399]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/cufflinks/assembly/CTR.skipped.gtf
+[LOG][2021-03-13 10:52:27.400]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/CTR.alignments.bam.bai
+[LOG][2021-03-13 10:52:27.436]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.gvcf
+[LOG][2021-03-13 10:52:28.094]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/CTR.CTR_S1_L001_R1_001.fastq.gz.info
+[LOG][2021-03-13 10:52:28.213]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/MantaFusions/CTR.fusions.csv
+[LOG][2021-03-13 10:52:28.213]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/renaming_log.txt
+[LOG][2021-03-13 10:52:28.213]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/CTR.read_2_files.txt
+[LOG][2021-03-13 10:52:28.214]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/filtered/CTR.read_1_files.txt
+[LOG][2021-03-13 10:52:28.947]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.vcf.gz.ant
+[LOG][2021-03-13 10:52:29.965]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/CTR.alignments.bam.tmp-mkDup.bam.dubMetrics.txt
+[LOG][2021-03-13 10:52:29.965]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/counts/CTR.counts.genes
+[LOG][2021-03-13 10:52:29.968]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/renaming_log.txt
+[LOG][2021-03-13 10:52:29.969]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/CTR.junctions.bed
+[LOG][2021-03-13 10:52:30.122]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/alignments/CTR.coverage.bw
+[LOG][2021-03-13 10:52:30.583]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.vcf.gz
+[LOG][2021-03-13 10:52:31.074]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.vcf
+[LOG][2021-03-13 10:52:34.335]Calculating md5sum for /data/scratch/workspace/RunFolder/Analysis/samples/CTR/replicates/CTR/variants/CTR.gvcf.gz.tbi
+Creating directory /data/output/appresults/12119116/CTR
+[LOG][2021-03-13 10:52:52.316]Creating /data/output/appresults/12119116/CTR/.basespace/dataset.json...
+[LOG][2021-03-13 10:52:52.338]TargetedFusionCount not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.338]TargetedAllFusionCount not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.339]TargetedGenes not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.339]TargetedGenes100X not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.339]TargetedGenes10X not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.339]TargetedGenes1X not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.340]TargetedGenes30X not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.340]TargetedPercent100X not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.340]TargetedPercent10X not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.340]TargetedPercent1X not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
+[LOG][2021-03-13 10:52:52.340]TargetedPercent30X not found in /data/output/appresults/12119116/CTR/metrics/metrics.json. Ignoring the metric.
